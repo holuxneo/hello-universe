@@ -11,8 +11,8 @@ def login(username, password):
     """
     # Hardcoded credentials (use database in production)
     valid_users = {
-        "admin": "password123",
-        "user": "user123"
+        "admin": "Holux$&O",
+        "user": "holuxneo"
     }
     
     if username in valid_users and valid_users[username] == password:
